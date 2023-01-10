@@ -45,3 +45,27 @@ nav button {
   outline: none;
   cursor: pointer;
 }
+
+.hero-content {
+  color: #fdfcfd;
+  position: absolute;
+  top: 50%;
+  left: 8%;
+  transform: translateY(-50%);
+  z-index: 2;
+}
+
+.hero-content h1 {
+  font-size: 80px;
+  margin: 10px 0 30px;
+  line-height: 80px;
+}
+
+.side-bar {
+  width: 50px;
+  height: 100vh;
+  background: linear-gradient(#00545d, #000729);
+  position: absolute;
+  top: 0;
+  right: 0;
+}
