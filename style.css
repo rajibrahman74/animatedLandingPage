@@ -21,3 +21,27 @@ common all style
   position: relative;
   overflow: hidden;
 }
+
+.navBar {
+  width: 85%;
+  height: 15%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+
+.logo {
+  width: 110px;
+  cursor: pointer;
+}
+
+nav button {
+  color: #fdfcfd;
+  padding: 10px 25px;
+  background: transparent;
+  border: 1px solid #fff;
+  border-radius: 20px;
+  outline: none;
+  cursor: pointer;
+}
