@@ -69,3 +69,32 @@ nav button {
   top: 0;
   right: 0;
 }
+
+.side-bar .side-bar-img {
+  display: block;
+  width: 25px;
+  margin: 40px auto 0;
+  cursor: pointer;
+}
+
+.social-icons img,
+.usefull-icons img {
+  width: 25px;
+  margin: 5px auto;
+  cursor: pointer;
+}
+
+.social-icons {
+  width: 50px;
+  align-items: center;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.usefull-icons {
+  width: 50px;
+  align-items: center;
+  position: absolute;
+  bottom: 30px;
+}
